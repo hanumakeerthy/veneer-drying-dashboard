@@ -94,3 +94,6 @@ def update_output(n_clicks, initial_moisture, veneer_type):
 # Run the app
 if __name__ == "__main__":
     app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=10000, debug=True)
+
